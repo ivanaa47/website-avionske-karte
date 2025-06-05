@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Letovi</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="icon" type="image/x-icon" href="Slike/logo.png">
+</head>
+<body>
+  <header>
+    <h1>Letovi</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Početna</a></li>
+        <li><a href="letovi.html" class="aktivnaStrana">Letovi</a></li>
+        <li><a href="destinacije.html">Destinacije</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+        <li><a href="onama.html">O nama</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="glavna">
+    <h2>Pretraži Letove</h2>
+    <form>
+      <label for="polazak">Polazak:</label>
+      <input type="text" id="polazak" name="polazak">
+      <label for="odrediste">Odredište:</label>
+      <input type="text" id="odrediste" name="odrediste">
+      <label for="datum">Datum:</label>
+      <input type="date" id="datum" name="datum">
+      <button type="submit">Pretraži</button>
+    </form>
+    <div class="kolone" style="margin-top: 20px;">
+      <div>
+        <h3>Najtraženiji letovi</h3>
+        <ul>
+          <li>Banja Luka - Pariz</li>
+          <li>Sarajevo - London</li>
+          <li>Tuzla - New York</li>
+        </ul>
+      </div>
+      <div>
+        <img src="Slike/avion2.jpg" alt="Avion u letu" class="slike">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Avionske Karte</p>
+  </footer>
+</body>
+</html>
